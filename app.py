@@ -28,7 +28,7 @@ def health():
 def api_status():
     return jsonify({
         "application": "Simple Python App",
-        "version": "1.0.0",
+        "version": "1.0.0", 
         "environment": "production",
         "deployed_at": str(datetime.datetime.now())
     })
